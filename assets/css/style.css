@@ -99,6 +99,10 @@ body {
     font-weight: 300;
     width: 120px;
 }
+.watch img{
+    width: 13px;
+    
+}
 
 .start {
     color: #fff;
@@ -126,6 +130,36 @@ body {
     display: flex;
     flex-direction: column;
     width: 100px;
+}
+.secend-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.secend-left img{
+    width: 300px;
+}
+.secend-right{
+    align-items: center;
+    gap: 10px;
+}
+.secend-right h1{
+    color:#fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+.secend-right p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+}
+.secend-right a{
+    color: #fff;
+    background:  #3A68B8;
+    padding: 5px 10px;
+    margin-left: 10px;
 }
 
 
@@ -313,5 +347,30 @@ body {
     .under-logos{
         padding-left: 200px;
         padding-right: 200px ;
+    }
+    .secend-section{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .secend-left{
+        padding-left: 260px;
+    }
+    .secend-left img{
+        width: 632px;
+        height: 634px;
+    }
+    .secend-right h1{
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    .secend-right p{
+        font-size: 16px;
+        font-weight: 100;
+        padding-bottom: 30px;
+    }
+    .right-section a{
+    font-size: 16px;
+    font-weight: 500px;
     }
 }
