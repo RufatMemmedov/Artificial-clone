@@ -244,63 +244,79 @@ body {
     opacity: .7;
 }
 
-.footer{
+.footer {
     background: #070e1c;
     color: #fff;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 
 }
-.footer a, p{
+
+.footer a,
+p {
     color: #fff;
     font-size: 14px;
     font-weight: 400;
     opacity: .6;
 }
-.footer h1{
+
+.footer h1 {
     font-size: 16px;
     font-weight: 700;
 }
-.left-div h1, p{
+
+.left-div h1,
+p {
     padding: 20px 0px;
 }
-.left-div h1{
-    color:  #3A68B8;
+
+.left-div h1 {
+    color: #3A68B8;
 }
-.contact p{
+
+.contact p {
     display: flex;
     gap: 20px;
 }
-.middle-div{
+
+.middle-div {
     display: flex;
     flex-direction: column;
 }
-.middle-div h1{
+
+.middle-div h1 {
     padding: 12px 0px;
 }
-.middle-div a{
+
+.middle-div a {
     padding: 20px 0px;
 }
-.right-div h1{
+
+.right-div h1 {
     padding: 12px 0px;
 }
-.right-div p{
+
+.right-div p {
     padding: 20px 0px;
 }
-.right-div a{
+
+.right-div a {
     padding: 9px 0px;
 }
-.footer-right-div-logo{
+
+.footer-right-div-logo {
     display: flex;
     width: 175px;
     gap: 20px;
     padding: 9px 0px;
-    
+
 }
-.language{
+
+.language {
     padding-top: 80px;
 }
-select{
+
+select {
     background-color: transparent;
     border: none;
     color: #fff;
