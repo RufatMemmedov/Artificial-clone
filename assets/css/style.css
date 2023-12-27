@@ -1,53 +1,13 @@
 @import url(/assets/css/reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
-:root {
-    --top-color: #0d1522;
-    --buttom-color: #19202d;
-}
 
 body {
     background-color: #08101e;
     font-family: 'Roboto', sans-serif;
 }
 
-/* ?awards-in kodlanmasi */
-.awards-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 25px;
-}
 
-.award {
-    background-image: linear-gradient(to bottom, #0d1522, #19202d);
-    color: #fff;
-    padding: 42px 30px;
-    border-radius: 5px;
-    text-align: center;
-
-}
-
-.award:hover {
-    box-shadow: 5px 10px 15px rgba(255, 255, 255, .7);
-    transition: .5s;
-}
-
-.award img {
-    display: block;
-    margin: 20px auto;
-}
-
-.award h1 {
-    font-size: 25px;
-    font-weight: 700;
-
-}
-
-.award p {
-    font-size: 12px;
-    font-weight: 500;
-    opacity: .7;
-}
 
 /* Mobil First Approach */
 
@@ -211,6 +171,47 @@ body {
     margin-left: 10px;
 }
 
+/* ?awards-in kodlanmasi */
+.awards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.award {
+    background-image: linear-gradient(to bottom, #0d1522, #19202d);
+    color: #fff;
+    padding: 42px 30px;
+    border-radius: 5px;
+    text-align: center;
+
+
+}
+
+.award:hover {
+    box-shadow: 5px 10px 15px rgba(255, 255, 255, .7);
+    transition: .5s;
+}
+
+.award img {
+    display: block;
+    margin: 20px auto;
+}
+
+.award h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+
+.award p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: .7;
+}
+
 .three-piont {
     display: none;
 }
@@ -220,14 +221,91 @@ body {
     flex-direction: column-reverse;
     align-items: center;
 }
-.quadruple-right img{
+
+.quadruple-right img {
     width: 320px;
     height: 322px;
 }
-.quadruple-left{
+
+.quadruple-left {
     color: #fff;
 }
 
+.quadruple-left h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.quadruple-left p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px;
+    opacity: .7;
+}
+
+.footer{
+    background: #070e1c;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+}
+.footer a, p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .6;
+}
+.footer h1{
+    font-size: 16px;
+    font-weight: 700;
+}
+.left-div h1, p{
+    padding: 20px 0px;
+}
+.left-div h1{
+    color:  #3A68B8;
+}
+.contact p{
+    display: flex;
+    gap: 20px;
+}
+.middle-div{
+    display: flex;
+    flex-direction: column;
+}
+.middle-div h1{
+    padding: 12px 0px;
+}
+.middle-div a{
+    padding: 20px 0px;
+}
+.right-div h1{
+    padding: 12px 0px;
+}
+.right-div p{
+    padding: 20px 0px;
+}
+.right-div a{
+    padding: 9px 0px;
+}
+.footer-right-div-logo{
+    display: flex;
+    width: 175px;
+    gap: 20px;
+    padding: 9px 0px;
+    
+}
+.language{
+    padding-top: 80px;
+}
+select{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+
+}
 
 /* ?Section Finish for Mobile */
 
@@ -384,7 +462,7 @@ body {
 
     .left-section {
         padding-left: 260px;
-        padding-bottom: 180px;
+
     }
 
     .left-section span {
@@ -408,12 +486,11 @@ body {
 
     .right-section {
         width: 632px;
-        height: 634px;
+        height: 534px;
     }
 
     .under-logos {
-        padding-left: 200px;
-        padding-right: 200px;
+        padding: 0px 150px;
     }
 
     .secend-section {
@@ -427,7 +504,7 @@ body {
 
     .secend-left img {
         width: 632px;
-        height: 634px;
+        height: 534px;
     }
 
     .secend-right h1 {
@@ -445,5 +522,19 @@ body {
     .right-section a {
         font-size: 16px;
         font-weight: 500px;
+    }
+
+    .quadruple-section {
+        flex-direction: row;
+        padding-bottom: 170px;
+    }
+
+    .quadruple-right img {
+        width: 632px;
+        height: 534px;
+    }
+
+    .quadruple-left {
+        padding-left: 260px;
     }
 }
